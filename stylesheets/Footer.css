@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    background-color: #dd7016;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+}
+.footer{
+    min-height: 258px;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    /* padding-left:234px ; */
+    /* padding-right: 234px; */
+
+}
+/*.footer{
+    /* border: 1px solid black; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}*/
+.footerinner{
+    padding: 12px;
+    gap: 20px;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-foooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex-text1{
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.flex-text2{
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.flex-text3{
+    color: white;
+    margin-top: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+.middle1-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#footertexts1{
+    font-weight: 400;
+margin-bottom: 7px;
+color: white;
+}
+.anchorhome{
+    color: white;
+    margin-bottom:5px ;
+    font-weight: 300;
+}
+.anchorfeatures{
+       color: white;
+       margin-bottom:5px ;
+       font-weight: 300;
+}
+.anchorsafety{
+       color: white;
+       margin-bottom:5px ;
+       font-weight: 300;
+}
+.anchorblogs{
+    color: white;
+    margin-bottom:5px ;
+    font-weight: 300;
+}
+.anchorcontact{
+color: white;
+margin-bottom:5px ;
+font-weight: 300;
+}
+.middle2-footer{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 11.22rem;
+}
+#footertexts2{
+
+text-align: start;
+    font-weight: 400;
+    margin-bottom: 7px;
+    color: white;
+}
+#anchortermscondition{
+color: white;
+
+
+}
+#anchorprivacypolicy{
+    color: white;
+margin-top: 5px;
+}
+.last-footer{
+    height: 11.22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.getintouchtexts{
+    font-weight: 400;
+margin-bottom: 7px;
+color: white;
+}
+.emailtextsfooter{
+    margin-bottom:5px ;
+    font-weight: 300;
+    color: white;
+}
+.copyright{
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.footerline{
+    margin-top: 23px;
+    color: white;
+}

@@ -1,0 +1,37 @@
+/* processing start*/
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:14px 0px ;
+
+}
+.innercontent{
+    padding: 23px;
+    width: 99%;
+    /* margin: 23px; */
+    box-shadow: 0px 0px 9px 0px rgb(180, 178, 178);
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.threats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bestpractices{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img{
+    float :right;
+}
+.operandi{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

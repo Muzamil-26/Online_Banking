@@ -1,0 +1,74 @@
+/* awareness Videos */
+.Awareness-Videos{
+    padding: 20px 0px;
+    margin-top: 23px;
+    background-color: rgb(226 226 226 / 39%);
+    width: 100vw;
+    /* height: 75vh;     */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading-awareness-videos{
+    display: flex;
+    /* width: 95%; */
+    justify-content: center;
+    align-items: center;
+}
+.heading-awareness-videos h1{
+    color: #dd7016;
+    font-size: 30px;
+    /* text-align: center; */
+}
+.inner-Awareness-videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.Lower-awareness-flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 13px; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+
+}
+.same-width-awarness-videos{
+    margin-right: 13px;
+    margin-top: 28px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 10px; */
+}
+.same-width-height-awarness-videos{
+    height: 300px;
+    background-color: #02020223;
+    width: 400px;
+    box-shadow: 0px 0px 9px rgb(226 226 226 / 39%);
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.same-width-height-awarness-videos video{
+    height: 300px;
+    object-fit: cover;
+    background-color: #02020223;
+    width: 400px;
+    border-radius: 5px;
+} 
+.same-font-size-videos{
+    margin-top: 23px;
+    font-size: 13px;
+}

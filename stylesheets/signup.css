@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(116, 178, 235, 1) 64%, rgba(0, 212, 255, 1) 100%); */
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    padding: 23px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px -1px black;
+    background-color: white;
+
+
+
+}
+
+.text {
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#dd7016;
+    /* -webkit-background-clip: text; */
+    /* background: linear-gradient(to right, red, blue); */
+  
+    
+    margin-bottom: 50px;
+
+}
+
+.Email {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px black;
+    padding: 12px;
+    width: 265px;
+
+}
+
+.password {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px black;
+    padding: 12px;
+    width: 265px;
+}
+
+.repassword {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px black;
+    padding: 12px;
+    width: 265px;
+}
+
+.Signupbtn {
+    border-radius: 50px;
+    border: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    color: white;
+    background-color:#dd7016;
+    cursor: pointer;
+    width: 265px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.Signupbtn:hover {
+    background-color: gray;
+    color: rgb(255, 255, 255);
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.para{
+    margin-top: 12px;
+    color: rgb(128, 128, 128);
+}
+.logintext{
+    margin-top: 12px;
+    color: #dd7016;
+    cursor: pointer;
+}
+.logintext:hover{
+    color: orangered;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 7px ;
+    margin-top: 12px;
+}
+.re-member{
+    color: rgb(128, 128, 128);
+}
+.condition{
+    color:#dd7016;
+}
+.condition:hover{
+    color: orangered;
+}
+.sociallogin{
+display: flex;
+flex-direction: row;
+gap: 30px;
+
+}
+.facebook{
+    width: 38px;
+    height: 38px;
+    margin-top: 20px;
+cursor: pointer;
+}
+.twitter{
+    width: 38px;
+    margin-top: 20px;
+    cursor: pointer;    
+}
+.google{
+    width: 48px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.socialpara{
+    color:rgb(128, 128, 128) ;
+    margin-top:50px ;
+    margin-bottom: 12px;
+}

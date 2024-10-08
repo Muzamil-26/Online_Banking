@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main1{
+    width: 90%;
+    /* height: 90vh; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+main section{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+/* margin: 23px; */
+/* padding: 13px; */
+color: black;
+/* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+/* font-family: poopins; */
+background-color: white;
+overflow-x: hidden;
+position: relative;
+
+}
+.header{
+    /* position: fixed; */
+    background-color: white;
+/* position: fixed;
+top: 0; */
+   padding: 23px;
+   border: 1px solid black;
+   width: 100%;
+   
+   border-radius: 4px;
+   border: none;
+    /* position: sticky; 
+    top: 0; */
+    display: flex;
+    box-shadow: 1px 1px 9px 1px #66606062;
+    justify-content: center;
+    align-items: center;
+    /* background-color: transparent; */
+
+}
+
+.header-content{
+    display: flex;
+     justify-content: space-around;
+    align-items: center;
+    width: 100%;
+   
+    /* border: 1px solid black; */
+    /* border-radius: 65px; */
+    /* padding: 20px 20px; */
+    background-color: transparent;
+
+    
+}
+.anchor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.anchor img{
+border-radius: 50%;
+}
+
+.navigation{
+    display: flex;
+    gap: 23px;
+}
+.logo-text2{
+    display: block;
+}
+.text{
+    margin-left: 12px;
+   font-weight: 600;
+   color: #dd7016;
+   font-size: large;
+}
+.navigation a{
+    color: rgb(110, 107, 107);
+}
+.navigation a:hover{
+    color: #dd7016;
+
+}
+.btn{
+    display: flex;
+    gap: 16px ;
+}
+.Loginbtn{
+border-radius: 5px;
+border: none;
+padding-top: 10px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 10px;
+color: white;
+background-color: #dd7016;
+cursor: pointer;
+
+}
+.Loginbtn:hover{
+    background-color: gray;
+    color: rgb(255, 255, 255);
+}
+.signupbtn{
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    color: white;
+    background-color:#dd7016;
+    cursor: pointer;
+}
+.signupbtn:hover{
+    background-color: gray;
+    color: rgb(255, 255, 255);
+}

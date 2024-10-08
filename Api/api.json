@@ -1,0 +1,82 @@
+[
+    {
+        "imgSrc": "assets/phishing_scams.png",
+        "desc": "Phishing Scams",
+        "hrefs":"awarenesstopics/Phising.php"
+    },
+    {
+        "imgSrc": "assets/strong-password.png",
+        "desc": "Strong Passwords",
+        "hrefs":"awarenesstopics/strongs.php"
+    },
+    {
+        "imgSrc": "assets/two-factor-authentication.png",
+        "desc": "Two-Factor Authentication (2FA)",
+        "hrefs":"awarenesstopics/twofa.php"
+    },
+    {
+        "imgSrc": "assets/Secure_wifi.png",
+        "desc": "Secure Wi-Fi Usage",
+        "hrefs":"awarenesstopics/securewifi.php"
+    },
+    {
+        "imgSrc": "assets/Fake_Webistes.png",
+        "desc": "Recognizing Fake Websites",
+        "hrefs":"awarenesstopics/fakeweb.php"
+    },
+    {
+        "imgSrc": "assets/malware_protection.png",
+        "desc": "Malware Protection",
+        "hrefs":"awarenesstopics/malwarepro.php"
+    },
+    {
+        "imgSrc": "assets/Mobile_banking.png",
+        "desc": "Mobile Banking Security",
+        "hrefs":"awarenesstopics/mobilebanking.php"
+    },
+    {
+        "imgSrc": "assets/Frauds_popus.png",
+        "desc": "Fraudulent Pop-Ups",
+        "hrefs":"awarenesstopics/fraudspopup.php"
+    },
+    {
+        "imgSrc": "assets/bank_cards_scams.png",
+        "desc": "Bank Card Scams",
+        "hrefs":"awarenesstopics/bankcardscams.php"
+    },
+    {
+        "imgSrc": "assets/risk-sotware.png",
+        "desc": "Software Risks",
+        "hrefs":"awarenesstopics/softwarerisks.php"
+    },
+    {
+        "imgSrc": "assets/email_safety.png",
+        "desc": "Email Safety",
+        "hrefs":"awarenesstopics/Emailsafety.php"
+    },
+    {
+        "imgSrc": "assets/social_ataacks.png",
+        "desc": "Socail Engineering Attacks",
+        "hrefs":"awarenesstopics/Socailattck.php"
+    },
+    {
+        "imgSrc": "assets/Password_pin_protection.png",
+        "desc": "Pin and Passwords Protection",
+        "hrefs":"awarenesstopics/pinandpass.php"
+    },
+    {
+        "imgSrc": "assets/atm_security.png",
+        "desc": "ATM Security",
+        "hrefs":"awarenesstopics/atmsecurity.php"
+    },
+    {
+        "imgSrc": "assets/tech_support.png",
+        "desc": "Tech Support Scams",
+        "hrefs":"awarenesstopics/techsupport.php"
+    },
+    {
+        "imgSrc": "assets/upi.png",
+        "desc": "Unified Payment Interface",
+        "hrefs":"awarenesstopics/upi.php"
+    }
+]

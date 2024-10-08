@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background:  linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(116, 178, 235, 1) 64%, rgba(0, 212, 255, 1) 100%); */
+}
+.container{
+    border: 1px solid black;
+    padding: 23px;
+    height: auto;
+    width: auto;
+    border-radius:10px ;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 10px -1px black;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-text{
+    font-size: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#dd7016;
+    /* background: linear-gradient(to right, red, blue); */
+    /* -webkit-background-clip:text; */
+    margin-bottom: 50px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+
+}
+.emailaddress{
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px black;
+    padding: 12px;
+    width: 265px;
+}
+.password{
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px black;
+    padding: 12px;
+    width: 265px;
+}
+.text{
+width: 256px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    
+}
+.remember-me-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(128, 128, 128);
+}
+.Forgot{
+    color: #dd7016;
+    cursor: pointer;
+}
+.Forgot:hover{
+    color: orangered;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+.loginbtn{
+border-radius: 50px;
+    border: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #dd7016;
+    cursor: pointer;
+    width: 265px;
+    box-shadow: 2px 2px 5px black;
+}
+.loginbtn:hover{
+    background-color: gray;
+    color: white;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.dontpara{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    margin-top: 4px;
+}
+.signup{
+    color: #dd7016;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.signup:hover{
+    color: orangered;
+}
